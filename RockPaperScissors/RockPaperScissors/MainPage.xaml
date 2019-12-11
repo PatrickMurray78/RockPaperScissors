@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:RockPaperScissors"
+             x:Class="RockPaperScissors.MainPage"
+             BackgroundColor="Orange">
+    
+    <StackLayout x:Name="SLcontent" 
+                 VerticalOptions="Start" 
+                 Spacing="10">
+
+        <Image Source="logo.png" 
+               x:Name="mainlogo" 
+               BackgroundColor="Transparent" 
+               HorizontalOptions="Center"/>
+
+        <AbsoluteLayout x:Name="mainbuttons">
+            <Button Text="Play" 
+                    x:Name="playbutton"
+                    ClassId="play"
+                    BackgroundColor="White" 
+                    FontSize="35" 
+                    CornerRadius="30" 
+                    Clicked="Navigate_Clicked"/>
+            <Button Text="Help" 
+                    x:Name="helpbutton"
+                    ClassId="help"
+                    BackgroundColor="White" 
+                    FontSize="35" 
+                    CornerRadius="30" 
+                    Clicked="Navigate_Clicked"/>
+            <Button Text="Exit" 
+                    x:Name="exitbutton"
+                    ClassId="exit"
+                    BackgroundColor="White" 
+                    FontSize="35" 
+                    CornerRadius="30"
+                    Clicked="Navigate_Clicked"/>
+        </AbsoluteLayout>
+    </StackLayout>
+    
+
+
+</ContentPage>

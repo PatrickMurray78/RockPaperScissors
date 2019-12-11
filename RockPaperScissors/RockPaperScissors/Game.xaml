@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RockPaperScissors.Game"
+             BackgroundColor="Orange">
+
+    <!-- This is the Game page of my project, I used absolute layouts to layout the page 
+         I did the majority of the attributes in XAML and the positioning in C# -->
+    <AbsoluteLayout x:Name="mainlayout"> <!-- Main layout -->
+        <AbsoluteLayout x:Name="header" 
+                        BackgroundColor="DarkOrange"> 
+            <Label Text="Rock Paper Scissors" 
+                   x:Name="titletext" 
+                   TextColor="White" 
+                   FontSize="30" 
+                   FontAttributes="Bold" 
+                   HorizontalTextAlignment="Center" 
+                   VerticalTextAlignment="Center"/>
+        </AbsoluteLayout> <!-- End of Header layout -->
+        <AbsoluteLayout x:Name="scorelabel"> <!-- score layout -->
+            <Label BackgroundColor="White" 
+                   Text="0-0"
+                   FontSize="50"
+                   HorizontalTextAlignment="Center"
+                   VerticalOptions="Center"
+                   x:Name="score" 
+                   HorizontalOptions="CenterAndExpand"
+                   HeightRequest="60"/>
+            <Label x:Name="result"
+                   FontSize="35"
+                   TextColor="White"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"/>
+        </AbsoluteLayout> <!-- End of Score layout-->
+        <AbsoluteLayout x:Name="moves" 
+                        HeightRequest="200" 
+                        BackgroundColor="DarkOrange"> <!-- moves layout -->
+            <Label x:Name="myturn" 
+                   FontSize="Large" 
+                   TextColor="White" 
+                   Text="Player 1"/>
+            <Image x:Name="mymove" 
+                   Aspect="AspectFit" 
+                   BackgroundColor="Transparent"/>
+            <Label x:Name="versus" 
+                   Text="VS" FontSize="35" 
+                   FontAttributes="Bold" 
+                   TextColor="White" 
+                   HorizontalOptions="Center"/>
+            <Image x:Name="computergo" 
+                   Aspect="AspectFit" 
+                   BackgroundColor="Transparent"/>
+            <Label x:Name="computersturn" 
+                   FontSize="Large" 
+                   TextColor="White" 
+                   Text="Computer"/>
+        </AbsoluteLayout> <!-- End of moves layout -->
+        <AbsoluteLayout x:Name="images"> <!-- imagebuttons layout -->
+            <ImageButton Source="Rock.png"
+                         x:Name="rock"
+                         Aspect="AspectFit"
+                         BackgroundColor="Transparent"
+                         Clicked="Button_Clicked"/>
+            <ImageButton Source="Paper.png" 
+                         x:Name="paper"
+                         Aspect="AspectFit"
+                         BackgroundColor="Transparent"
+                         Clicked="Button_Clicked"/>
+            <ImageButton Source="Scissors.png" 
+                         x:Name="scissors"
+                         Aspect="AspectFit"
+                         BackgroundColor="Transparent"
+                         Clicked="Button_Clicked"/>
+        </AbsoluteLayout> <!-- end of imagebuttons layout -->
+        <AbsoluteLayout x:Name="buttons"> <!-- mainbuttons layout -->
+            <Button Text="Best of 3"
+                    BackgroundColor="White" 
+                    x:Name="best3"
+                    HeightRequest="50" 
+                    FontSize="15" 
+                    CornerRadius="15"
+                    Clicked="BestOf_Clicked"/>
+            <Button Text="Best of 5"
+                    BackgroundColor="White" 
+                    x:Name="best5"
+                    HeightRequest="50" 
+                    FontSize="15" 
+                    CornerRadius="15"
+                    Clicked="BestOf_Clicked"/>
+            <Button Text="Home"
+                    x:Name="homebutton"
+                    BackgroundColor="White" 
+                    HeightRequest="50" 
+                    FontSize="15" 
+                    CornerRadius="15"
+                    HorizontalOptions="Center"
+                    VerticalOptions="End"
+                    Clicked="Home_Clicked"/>
+        </AbsoluteLayout> <!-- end of mainbuttons layout -->
+    </AbsoluteLayout> <!-- end of main layout -->
+</ContentPage>

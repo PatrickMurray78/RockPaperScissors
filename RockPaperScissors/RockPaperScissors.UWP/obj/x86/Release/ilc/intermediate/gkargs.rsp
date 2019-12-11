@@ -1,0 +1,12 @@
+﻿"C:\RockPaperScissors\RockPaperScissors\RockPaperScissors.UWP\obj\x86\Release\ilc\in\RockPaperScissors.dll"
+"C:\RockPaperScissors\RockPaperScissors\RockPaperScissors.UWP\obj\x86\Release\ilc\in\RockPaperScissors.UWP.exe"
+"C:\RockPaperScissors\RockPaperScissors\RockPaperScissors.UWP\obj\x86\Release\ilc\in\Xamarin.Forms.Core.dll"
+"C:\RockPaperScissors\RockPaperScissors\RockPaperScissors.UWP\obj\x86\Release\ilc\in\Xamarin.Forms.Platform.dll"
+"C:\RockPaperScissors\RockPaperScissors\RockPaperScissors.UWP\obj\x86\Release\ilc\in\Xamarin.Forms.Platform.UAP.dll"
+"C:\RockPaperScissors\RockPaperScissors\RockPaperScissors.UWP\obj\x86\Release\ilc\in\Xamarin.Forms.Xaml.dll"
+/Lib:"C:\RockPaperScissors\RockPaperScissors\RockPaperScissors.UWP\obj\x86\Release\ilc\in"
+/Lib:"C:\Users\patri\.nuget\packages\runtime.win10-x86.microsoft.net.native.compiler\2.1.8\tools\x86\ilc\lib\Private"
+/WinMD:"C:\RockPaperScissors\RockPaperScissors\RockPaperScissors.UWP\obj\x86\Release\ilc\in\WinMetadata\Windows.winmd"
+/VSTelemetrySessionSettings:"{"IsOptedIn":true,"HostName":"Dev14","AppInsightsInstrumentationKey":"f144292e-e3b2-4011-ac90-20e5c03fbce5","AsimovInstrumentationKey":"AIF-312cbd79-9dbb-4c48-a7da-3cc2a931cb70","AppId":1001,"UserId":"16786703-1ff4-48e2-8f8d-788e5645f46a","Id":"40ec38dc-096b-4928-9cdd-9805ac5b22cf","ProcessStartTime":637116029572840249}"
+/RdXmlPath:"C:\Users\patri\.nuget\packages\microsoft.net.native.compiler\2.1.8\tools\LibraryXML"
+/RunOnlyPreDR

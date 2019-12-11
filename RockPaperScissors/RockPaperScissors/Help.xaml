@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RockPaperScissors.Help"
+             BackgroundColor="Orange">
+
+    <AbsoluteLayout x:Name="mainlayout">
+        <StackLayout x:Name="slcontent"
+                BackgroundColor="DarkOrange"
+                AbsoluteLayout.LayoutBounds="0.5, 0, 0.8, 1"
+                AbsoluteLayout.LayoutFlags="All"
+                Spacing="10">
+            <Label Text="RULES" 
+                   x:Name="rulestitle" 
+                   FontSize="30" 
+                   TextColor="White" 
+                   FontAttributes="Bold" 
+                   HorizontalOptions="CenterAndExpand"/>
+            <StackLayout x:Name="rulescontent" 
+                         Orientation="Horizontal" 
+                         HorizontalOptions="Center">
+                <StackLayout x:Name="images" 
+                             VerticalOptions="CenterAndExpand">
+                    <Image Source="Rock.png" 
+                           BackgroundColor="Transparent"/>
+                    <Image Source="Paper.png" 
+                           BackgroundColor="Transparent"/>
+                    <Image Source="Scissors.png" 
+                           BackgroundColor="Transparent"/>
+                </StackLayout>
+                <StackLayout x:Name="rules" 
+                             Spacing="110"  
+                             VerticalOptions="CenterAndExpand">
+                    <StackLayout>
+                        <Label Text="ROCK" 
+                               TextColor="White" 
+                               FontSize="Large"
+                               FontAttributes="Bold" 
+                               Margin="0, 0, 0, -10"/>
+                        <Label Text="BEATS SCISSORS"
+                               TextColor="White"/>
+                    </StackLayout>
+                    <StackLayout x:Name="paper">
+                        <Label Text="PAPER" 
+                               TextColor="White" 
+                               FontSize="Large" 
+                               FontAttributes="Bold" 
+                               Margin="0, 0, 0, -10"/>
+                        <Label Text="BEATS ROCK"
+                               TextColor="White"/>
+                    </StackLayout>
+                    <StackLayout>
+                        <Label Text="SCISSORS" 
+                               TextColor="White"
+                               FontSize="Large"
+                               FontAttributes="Bold"
+                               Margin="0, 0, 0, -10"/>
+                        <Label Text="BEATS PAPER" 
+                               TextColor="White"/>
+                    </StackLayout>
+                </StackLayout>
+            </StackLayout>
+            <Button Text="Home"
+                    x:Name="homebutton"
+                    BackgroundColor="White" 
+                    HeightRequest="50" 
+                    FontSize="Medium" 
+                    CornerRadius="15"
+                    Clicked="Button_Clicked"
+                    HorizontalOptions="Center"/>
+        </StackLayout>
+    </AbsoluteLayout>
+</ContentPage>
