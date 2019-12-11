@@ -4,6 +4,7 @@
              x:Class="RockPaperScissors.Help"
              BackgroundColor="Orange">
 
+  <!-- The help page contains 3 basic rules for the game, in case you dont understand how rock paper scissors works -->
     <AbsoluteLayout x:Name="mainlayout">
         <StackLayout x:Name="slcontent"
                 BackgroundColor="DarkOrange"
@@ -19,7 +20,7 @@
             <StackLayout x:Name="rulescontent" 
                          Orientation="Horizontal" 
                          HorizontalOptions="Center">
-                <StackLayout x:Name="images" 
+                <StackLayout x:Name="imagelayout" 
                              VerticalOptions="CenterAndExpand">
                     <Image Source="Rock.png" 
                            BackgroundColor="Transparent"/>

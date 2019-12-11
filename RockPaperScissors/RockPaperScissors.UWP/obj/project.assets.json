@@ -7495,11 +7495,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\RockPaperScissors\\RockPaperScissors\\RockPaperScissors.UWP\\RockPaperScissors.UWP.csproj",
+      "projectUniqueName": "C:\\Projects\\RockPaperScissors\\RockPaperScissors\\RockPaperScissors.UWP\\RockPaperScissors.UWP.csproj",
       "projectName": "RockPaperScissors.UWP",
-      "projectPath": "C:\\RockPaperScissors\\RockPaperScissors\\RockPaperScissors.UWP\\RockPaperScissors.UWP.csproj",
+      "projectPath": "C:\\Projects\\RockPaperScissors\\RockPaperScissors\\RockPaperScissors.UWP\\RockPaperScissors.UWP.csproj",
       "packagesPath": "C:\\Users\\patri\\.nuget\\packages\\",
-      "outputPath": "C:\\RockPaperScissors\\RockPaperScissors\\RockPaperScissors.UWP\\obj\\",
+      "outputPath": "C:\\Projects\\RockPaperScissors\\RockPaperScissors\\RockPaperScissors.UWP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -7519,8 +7519,8 @@
       "frameworks": {
         "uap10.0.16299": {
           "projectReferences": {
-            "C:\\RockPaperScissors\\RockPaperScissors\\RockPaperScissors\\RockPaperScissors.csproj": {
-              "projectPath": "C:\\RockPaperScissors\\RockPaperScissors\\RockPaperScissors\\RockPaperScissors.csproj"
+            "C:\\Projects\\RockPaperScissors\\RockPaperScissors\\RockPaperScissors\\RockPaperScissors.csproj": {
+              "projectPath": "C:\\Projects\\RockPaperScissors\\RockPaperScissors\\RockPaperScissors\\RockPaperScissors.csproj"
             }
           }
         }

@@ -350,11 +350,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\RockPaperScissors\\RockPaperScissors\\RockPaperScissors\\RockPaperScissors.csproj",
+      "projectUniqueName": "C:\\Projects\\RockPaperScissors\\RockPaperScissors\\RockPaperScissors\\RockPaperScissors.csproj",
       "projectName": "RockPaperScissors",
-      "projectPath": "C:\\RockPaperScissors\\RockPaperScissors\\RockPaperScissors\\RockPaperScissors.csproj",
+      "projectPath": "C:\\Projects\\RockPaperScissors\\RockPaperScissors\\RockPaperScissors\\RockPaperScissors.csproj",
       "packagesPath": "C:\\Users\\patri\\.nuget\\packages\\",
-      "outputPath": "C:\\RockPaperScissors\\RockPaperScissors\\RockPaperScissors\\obj\\",
+      "outputPath": "C:\\Projects\\RockPaperScissors\\RockPaperScissors\\RockPaperScissors\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

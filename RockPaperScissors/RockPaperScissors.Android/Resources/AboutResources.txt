@@ -1,6 +1,6 @@
-Images, layout descriptions, binary blobs and string dictionaries can be included 
+imagebuttonslayout, layout descriptions, binary blobs and string dictionaries can be included 
 in your application as resource files.  Various Android APIs are designed to 
-operate on the resource IDs instead of dealing with images, strings or binary blobs 
+operate on the resource IDs instead of dealing with imagebuttonslayout, strings or binary blobs 
 directly.
 
 For example, a sample Android app that contains a user interface layout (main.xml),

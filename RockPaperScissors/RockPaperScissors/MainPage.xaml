@@ -5,16 +5,15 @@
              x:Class="RockPaperScissors.MainPage"
              BackgroundColor="Orange">
     
+  <!-- The mainpage consists of the logo at the top followed by three buttons which direct you to Game.xaml, help.xaml and EXIT exits the game -->
     <StackLayout x:Name="SLcontent" 
                  VerticalOptions="Start" 
                  Spacing="10">
-
         <Image Source="logo.png" 
                x:Name="mainlogo" 
                BackgroundColor="Transparent" 
                HorizontalOptions="Center"/>
-
-        <AbsoluteLayout x:Name="mainbuttons">
+        <AbsoluteLayout x:Name="mainbuttonslayout">
             <Button Text="Play" 
                     x:Name="playbutton"
                     ClassId="play"
@@ -38,7 +37,4 @@
                     Clicked="Navigate_Clicked"/>
         </AbsoluteLayout>
     </StackLayout>
-    
-
-
 </ContentPage>

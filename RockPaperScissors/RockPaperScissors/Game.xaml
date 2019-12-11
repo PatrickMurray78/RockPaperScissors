@@ -7,17 +7,17 @@
     <!-- This is the Game page of my project, I used absolute layouts to layout the page 
          I did the majority of the attributes in XAML and the positioning in C# -->
     <AbsoluteLayout x:Name="mainlayout"> <!-- Main layout -->
-        <AbsoluteLayout x:Name="header" 
+        <AbsoluteLayout x:Name="headerlayout" 
                         BackgroundColor="DarkOrange"> 
-            <Label Text="Rock Paper Scissors" 
+            <Label Text="Rock Paper Scissors"
                    x:Name="titletext" 
                    TextColor="White" 
                    FontSize="30" 
                    FontAttributes="Bold" 
                    HorizontalTextAlignment="Center" 
                    VerticalTextAlignment="Center"/>
-        </AbsoluteLayout> <!-- End of Header layout -->
-        <AbsoluteLayout x:Name="scorelabel"> <!-- score layout -->
+        </AbsoluteLayout> <!-- End of headerlayout layout -->
+        <AbsoluteLayout x:Name="scorelayout"> <!-- score layout -->
             <Label BackgroundColor="White" 
                    Text="0-0"
                    FontSize="50"
@@ -32,9 +32,9 @@
                    FontAttributes="Bold"
                    HorizontalOptions="Center"/>
         </AbsoluteLayout> <!-- End of Score layout-->
-        <AbsoluteLayout x:Name="moves" 
+        <AbsoluteLayout x:Name="moveslayout" 
                         HeightRequest="200" 
-                        BackgroundColor="DarkOrange"> <!-- moves layout -->
+                        BackgroundColor="DarkOrange"> <!-- moveslayout layout -->
             <Label x:Name="myturn" 
                    FontSize="Large" 
                    TextColor="White" 
@@ -54,8 +54,8 @@
                    FontSize="Large" 
                    TextColor="White" 
                    Text="Computer"/>
-        </AbsoluteLayout> <!-- End of moves layout -->
-        <AbsoluteLayout x:Name="images"> <!-- imagebuttons layout -->
+        </AbsoluteLayout> <!-- End of moveslayout layout -->
+        <AbsoluteLayout x:Name="imagebuttonslayout"> <!-- imagemainbuttonslayout layout -->
             <ImageButton Source="Rock.png"
                          x:Name="rock"
                          Aspect="AspectFit"
@@ -71,8 +71,8 @@
                          Aspect="AspectFit"
                          BackgroundColor="Transparent"
                          Clicked="Button_Clicked"/>
-        </AbsoluteLayout> <!-- end of imagebuttons layout -->
-        <AbsoluteLayout x:Name="buttons"> <!-- mainbuttons layout -->
+        </AbsoluteLayout> <!-- end of imagemainbuttonslayout layout -->
+        <AbsoluteLayout x:Name="mainbuttonslayout"> <!-- mainmainbuttonslayout layout -->
             <Button Text="Best of 3"
                     BackgroundColor="White" 
                     x:Name="best3"
@@ -96,6 +96,6 @@
                     HorizontalOptions="Center"
                     VerticalOptions="End"
                     Clicked="Home_Clicked"/>
-        </AbsoluteLayout> <!-- end of mainbuttons layout -->
+        </AbsoluteLayout> <!-- end of mainbuttonslayout layout -->
     </AbsoluteLayout> <!-- end of main layout -->
 </ContentPage>

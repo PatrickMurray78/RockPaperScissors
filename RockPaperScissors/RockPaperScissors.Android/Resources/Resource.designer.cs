@@ -143,7 +143,7 @@ namespace RockPaperScissors.Droid
 			public const int actionBarWidgetTheme = 2130772073;
 			
 			// aapt resource value: 0x7f010086
-			public const int actionButtonStyle = 2130772102;
+			public const int actionmainbuttonslayouttyle = 2130772102;
 			
 			// aapt resource value: 0x7f010082
 			public const int actionDropDownStyle = 2130772098;
@@ -161,7 +161,7 @@ namespace RockPaperScissors.Droid
 			public const int actionModeBackground = 2130772081;
 			
 			// aapt resource value: 0x7f010070
-			public const int actionModeCloseButtonStyle = 2130772080;
+			public const int actionModeClosemainbuttonslayouttyle = 2130772080;
 			
 			// aapt resource value: 0x7f010073
 			public const int actionModeCloseDrawable = 2130772083;
@@ -197,7 +197,7 @@ namespace RockPaperScissors.Droid
 			public const int actionModeWebSearchDrawable = 2130772090;
 			
 			// aapt resource value: 0x7f010063
-			public const int actionOverflowButtonStyle = 2130772067;
+			public const int actionOverflowmainbuttonslayouttyle = 2130772067;
 			
 			// aapt resource value: 0x7f010064
 			public const int actionOverflowMenuStyle = 2130772068;
@@ -215,7 +215,7 @@ namespace RockPaperScissors.Droid
 			public const int alertDialogButtonGroupStyle = 2130772147;
 			
 			// aapt resource value: 0x7f0100b4
-			public const int alertDialogCenterButtons = 2130772148;
+			public const int alertDialogCentermainbuttonslayout = 2130772148;
 			
 			// aapt resource value: 0x7f0100b2
 			public const int alertDialogStyle = 2130772146;
@@ -293,7 +293,7 @@ namespace RockPaperScissors.Droid
 			public const int borderWidth = 2130772287;
 			
 			// aapt resource value: 0x7f01008b
-			public const int borderlessButtonStyle = 2130772107;
+			public const int borderlessmainbuttonslayouttyle = 2130772107;
 			
 			// aapt resource value: 0x7f010139
 			public const int bottomSheetDialogTheme = 2130772281;
@@ -302,16 +302,16 @@ namespace RockPaperScissors.Droid
 			public const int bottomSheetStyle = 2130772282;
 			
 			// aapt resource value: 0x7f010088
-			public const int buttonBarButtonStyle = 2130772104;
+			public const int buttonBarmainbuttonslayouttyle = 2130772104;
 			
 			// aapt resource value: 0x7f0100b8
-			public const int buttonBarNegativeButtonStyle = 2130772152;
+			public const int buttonBarNegativemainbuttonslayouttyle = 2130772152;
 			
 			// aapt resource value: 0x7f0100b9
-			public const int buttonBarNeutralButtonStyle = 2130772153;
+			public const int buttonBarNeutralmainbuttonslayouttyle = 2130772153;
 			
 			// aapt resource value: 0x7f0100b7
-			public const int buttonBarPositiveButtonStyle = 2130772151;
+			public const int buttonBarPositivemainbuttonslayouttyle = 2130772151;
 			
 			// aapt resource value: 0x7f010087
 			public const int buttonBarStyle = 2130772103;
@@ -323,10 +323,10 @@ namespace RockPaperScissors.Droid
 			public const int buttonPanelSideLayout = 2130772035;
 			
 			// aapt resource value: 0x7f0100bb
-			public const int buttonStyle = 2130772155;
+			public const int mainbuttonslayouttyle = 2130772155;
 			
 			// aapt resource value: 0x7f0100bc
-			public const int buttonStyleSmall = 2130772156;
+			public const int mainbuttonslayouttyleSmall = 2130772156;
 			
 			// aapt resource value: 0x7f0100cd
 			public const int buttonTint = 2130772173;
@@ -611,7 +611,7 @@ namespace RockPaperScissors.Droid
 			public const int goIcon = 2130772207;
 			
 			// aapt resource value: 0x7f010148
-			public const int headerLayout = 2130772296;
+			public const int header = 2130772296;
 			
 			// aapt resource value: 0x7f010023
 			public const int height = 2130772003;
@@ -647,7 +647,7 @@ namespace RockPaperScissors.Droid
 			public const int iconifiedByDefault = 2130772203;
 			
 			// aapt resource value: 0x7f010095
-			public const int imageButtonStyle = 2130772117;
+			public const int imagemainbuttonslayouttyle = 2130772117;
 			
 			// aapt resource value: 0x7f010034
 			public const int indeterminateProgressStyle = 2130772020;
@@ -767,7 +767,7 @@ namespace RockPaperScissors.Droid
 			public const int mediaRouteAudioTrackDrawable = 2130771977;
 			
 			// aapt resource value: 0x7f01000a
-			public const int mediaRouteButtonStyle = 2130771978;
+			public const int mediaRoutemainbuttonslayouttyle = 2130771978;
 			
 			// aapt resource value: 0x7f010016
 			public const int mediaRouteButtonTint = 2130771990;
@@ -824,7 +824,7 @@ namespace RockPaperScissors.Droid
 			public const int overlapAnchor = 2130772198;
 			
 			// aapt resource value: 0x7f0100e8
-			public const int paddingBottomNoButtons = 2130772200;
+			public const int paddingBottomNomainbuttonslayout = 2130772200;
 			
 			// aapt resource value: 0x7f010114
 			public const int paddingEnd = 2130772244;
@@ -887,7 +887,7 @@ namespace RockPaperScissors.Droid
 			public const int queryHint = 2130772204;
 			
 			// aapt resource value: 0x7f0100c0
-			public const int radioButtonStyle = 2130772160;
+			public const int radiomainbuttonslayouttyle = 2130772160;
 			
 			// aapt resource value: 0x7f0100c1
 			public const int ratingBarStyle = 2130772161;
@@ -1076,7 +1076,7 @@ namespace RockPaperScissors.Droid
 			public const int textAppearanceListItemSmall = 2130772131;
 			
 			// aapt resource value: 0x7f01007e
-			public const int textAppearancePopupMenuHeader = 2130772094;
+			public const int textAppearancePopupMenuheader = 2130772094;
 			
 			// aapt resource value: 0x7f010097
 			public const int textAppearanceSearchResultSubtitle = 2130772119;
@@ -1163,7 +1163,7 @@ namespace RockPaperScissors.Droid
 			public const int toolbarId = 2130772265;
 			
 			// aapt resource value: 0x7f010090
-			public const int toolbarNavigationButtonStyle = 2130772112;
+			public const int toolbarNavigationmainbuttonslayouttyle = 2130772112;
 			
 			// aapt resource value: 0x7f01008f
 			public const int toolbarStyle = 2130772111;
@@ -1679,7 +1679,7 @@ namespace RockPaperScissors.Droid
 			public const int abc_dialog_fixed_width_minor = 2131230744;
 			
 			// aapt resource value: 0x7f080033
-			public const int abc_dialog_list_padding_bottom_no_buttons = 2131230771;
+			public const int abc_dialog_list_padding_bottom_no_mainbuttonslayout = 2131230771;
 			
 			// aapt resource value: 0x7f080034
 			public const int abc_dialog_list_padding_top_no_title = 2131230772;
@@ -3574,7 +3574,7 @@ namespace RockPaperScissors.Droid
 			public const int text2 = 2131296283;
 			
 			// aapt resource value: 0x7f09006a
-			public const int textSpacerNoButtons = 2131296362;
+			public const int textSpacerNomainbuttonslayout = 2131296362;
 			
 			// aapt resource value: 0x7f090069
 			public const int textSpacerNoTitle = 2131296361;
@@ -4333,7 +4333,7 @@ namespace RockPaperScissors.Droid
 			public const int Base_TextAppearance_AppCompat_Widget_DropDownItem = 2131493042;
 			
 			// aapt resource value: 0x7f0c0062
-			public const int Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131492962;
+			public const int Base_TextAppearance_AppCompat_Widget_PopupMenu_header = 2131492962;
 			
 			// aapt resource value: 0x7f0c0063
 			public const int Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131492963;
@@ -4909,7 +4909,7 @@ namespace RockPaperScissors.Droid
 			public const int TextAppearance_AppCompat_Widget_DropDownItem = 2131493119;
 			
 			// aapt resource value: 0x7f0c0100
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131493120;
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_header = 2131493120;
 			
 			// aapt resource value: 0x7f0c0101
 			public const int TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131493121;
@@ -5881,7 +5881,7 @@ namespace RockPaperScissors.Droid
 			public const int AppCompatTheme_actionBarWidgetTheme = 21;
 			
 			// aapt resource value: 50
-			public const int AppCompatTheme_actionButtonStyle = 50;
+			public const int AppCompatTheme_actionmainbuttonslayouttyle = 50;
 			
 			// aapt resource value: 46
 			public const int AppCompatTheme_actionDropDownStyle = 46;
@@ -5896,7 +5896,7 @@ namespace RockPaperScissors.Droid
 			public const int AppCompatTheme_actionModeBackground = 29;
 			
 			// aapt resource value: 28
-			public const int AppCompatTheme_actionModeCloseButtonStyle = 28;
+			public const int AppCompatTheme_actionModeClosemainbuttonslayouttyle = 28;
 			
 			// aapt resource value: 31
 			public const int AppCompatTheme_actionModeCloseDrawable = 31;
@@ -5932,7 +5932,7 @@ namespace RockPaperScissors.Droid
 			public const int AppCompatTheme_actionModeWebSearchDrawable = 38;
 			
 			// aapt resource value: 15
-			public const int AppCompatTheme_actionOverflowButtonStyle = 15;
+			public const int AppCompatTheme_actionOverflowmainbuttonslayouttyle = 15;
 			
 			// aapt resource value: 16
 			public const int AppCompatTheme_actionOverflowMenuStyle = 16;
@@ -5944,7 +5944,7 @@ namespace RockPaperScissors.Droid
 			public const int AppCompatTheme_alertDialogButtonGroupStyle = 95;
 			
 			// aapt resource value: 96
-			public const int AppCompatTheme_alertDialogCenterButtons = 96;
+			public const int AppCompatTheme_alertDialogCentermainbuttonslayout = 96;
 			
 			// aapt resource value: 94
 			public const int AppCompatTheme_alertDialogStyle = 94;
@@ -5962,28 +5962,28 @@ namespace RockPaperScissors.Droid
 			public const int AppCompatTheme_autoCompleteTextViewStyle = 102;
 			
 			// aapt resource value: 55
-			public const int AppCompatTheme_borderlessButtonStyle = 55;
+			public const int AppCompatTheme_borderlessmainbuttonslayouttyle = 55;
 			
 			// aapt resource value: 52
-			public const int AppCompatTheme_buttonBarButtonStyle = 52;
+			public const int AppCompatTheme_buttonBarmainbuttonslayouttyle = 52;
 			
 			// aapt resource value: 100
-			public const int AppCompatTheme_buttonBarNegativeButtonStyle = 100;
+			public const int AppCompatTheme_buttonBarNegativemainbuttonslayouttyle = 100;
 			
 			// aapt resource value: 101
-			public const int AppCompatTheme_buttonBarNeutralButtonStyle = 101;
+			public const int AppCompatTheme_buttonBarNeutralmainbuttonslayouttyle = 101;
 			
 			// aapt resource value: 99
-			public const int AppCompatTheme_buttonBarPositiveButtonStyle = 99;
+			public const int AppCompatTheme_buttonBarPositivemainbuttonslayouttyle = 99;
 			
 			// aapt resource value: 51
 			public const int AppCompatTheme_buttonBarStyle = 51;
 			
 			// aapt resource value: 103
-			public const int AppCompatTheme_buttonStyle = 103;
+			public const int AppCompatTheme_mainbuttonslayouttyle = 103;
 			
 			// aapt resource value: 104
-			public const int AppCompatTheme_buttonStyleSmall = 104;
+			public const int AppCompatTheme_mainbuttonslayouttyleSmall = 104;
 			
 			// aapt resource value: 105
 			public const int AppCompatTheme_checkboxStyle = 105;
@@ -6055,7 +6055,7 @@ namespace RockPaperScissors.Droid
 			public const int AppCompatTheme_homeAsUpIndicator = 49;
 			
 			// aapt resource value: 65
-			public const int AppCompatTheme_imageButtonStyle = 65;
+			public const int AppCompatTheme_imagemainbuttonslayouttyle = 65;
 			
 			// aapt resource value: 83
 			public const int AppCompatTheme_listChoiceBackgroundIndicator = 83;
@@ -6100,7 +6100,7 @@ namespace RockPaperScissors.Droid
 			public const int AppCompatTheme_popupWindowStyle = 62;
 			
 			// aapt resource value: 108
-			public const int AppCompatTheme_radioButtonStyle = 108;
+			public const int AppCompatTheme_radiomainbuttonslayouttyle = 108;
 			
 			// aapt resource value: 109
 			public const int AppCompatTheme_ratingBarStyle = 109;
@@ -6145,7 +6145,7 @@ namespace RockPaperScissors.Droid
 			public const int AppCompatTheme_textAppearanceListItemSmall = 79;
 			
 			// aapt resource value: 42
-			public const int AppCompatTheme_textAppearancePopupMenuHeader = 42;
+			public const int AppCompatTheme_textAppearancePopupMenuheader = 42;
 			
 			// aapt resource value: 67
 			public const int AppCompatTheme_textAppearanceSearchResultSubtitle = 67;
@@ -6163,7 +6163,7 @@ namespace RockPaperScissors.Droid
 			public const int AppCompatTheme_textColorSearchUrl = 68;
 			
 			// aapt resource value: 60
-			public const int AppCompatTheme_toolbarNavigationButtonStyle = 60;
+			public const int AppCompatTheme_toolbarNavigationmainbuttonslayouttyle = 60;
 			
 			// aapt resource value: 59
 			public const int AppCompatTheme_toolbarStyle = 59;
@@ -6907,7 +6907,7 @@ namespace RockPaperScissors.Droid
 					2130772201};
 			
 			// aapt resource value: 0
-			public const int RecycleListView_paddingBottomNoButtons = 0;
+			public const int RecycleListView_paddingBottomNomainbuttonslayout = 0;
 			
 			// aapt resource value: 1
 			public const int RecycleListView_paddingTopNoTitle = 1;
